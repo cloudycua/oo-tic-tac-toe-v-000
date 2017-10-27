@@ -89,9 +89,9 @@ class TicTacToe
   end
 
   def play
-    until over? == true
+    while !over?
       turn
-    end
+    endw
     if draw? == true
       puts "Cat's Game!"
     else won?
