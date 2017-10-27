@@ -79,7 +79,7 @@ class TicTacToe
   end
 
   def over?
-    won? != nil || full? == true || draw? == true
+    won? == true || full? == true || draw? == true
   end
 
   def winner
